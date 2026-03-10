@@ -1,34 +1,25 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <b>E</b>wha <b>M</b>usic <b>I</b>ntelligence <b>N</b>euroscience <b>D</b>esign Lab
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: emind_logo.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Department of Music Therapy</p>
+    <p>Graduate School, Ewha Womans University</p>
+    <p>Seoul, Republic of Korea</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: true # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+## Ewha Music Intelligence Neuroscience Design Lab
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+E.MIND는 음악의 치료적 원리 및 실제를 토대로 한 기초 및 응용연구를 수행하며, 음악의 치료적 효능과 기술의 융합을 통해 **Everywhere, Everyone, Everytime** 음악치료 서비스를 위한 대면 및 비대면 콘텐츠, 시스템 알고리듬 등의 결과물을 도출 및 보급을 목적으로 합니다. 현재, 정부 및 지방자치단체, 공공연구기관, 대기업 및 중소기업과의 협력을 바탕으로 미래 모빌리티 디지털 헬스케어 시스템 개발, 쾌적한 음환경 조성을 위한 스마트 사운드스케이프 시스템 개발, 뇌졸중, 파킨슨, 경도인지장애 환자의 운동 및 인지 재활을 위한 디지털 치료제 개발 및 검증 연구를 수행하고 있습니다.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Our mission is to develop and disseminate evidence-based music therapy services through the convergence of therapeutic music principles and advanced technologies, making music therapy accessible **Everywhere, Everyone, Everytime**. E-MIND Lab conducts fundamental and applied research based on therapeutic principles and practices of music. Our interdisciplinary approach combines neuroscience, music therapy, digital healthcare, and advanced technologies to create innovative solutions for cognitive rehabilitation, wellness enhancement, and therapeutic intervention. Our laboratory focuses on three primary research domains that leverage the therapeutic potential of music through technological innovation.
