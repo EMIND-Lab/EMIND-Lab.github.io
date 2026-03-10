@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: center
-  image: emind_hero.svg
+  image: emind_logo.png
   image_circular: false
 
 news: true
