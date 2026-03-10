@@ -7,13 +7,13 @@ nav: true
 nav_order: 2
 ---
 
-## Director
+<h2 id="director">Director</h2>
 
 <div class="row mt-3">
-  <div class="col-sm-3">
-    {% include figure.liquid loading="eager" path="assets/img/ejeong.jpg" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm-3 col-md-3">
+    <img src="{{ '/assets/img/ejeong.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Eunju Jeong">
   </div>
-  <div class="col-sm-9">
+  <div class="col-sm-9 col-md-9">
     <h4>Eunju Jeong (정은주)</h4>
     <p><strong>Professor</strong><br>
     Department of Music Therapy, Graduate School,<br>
@@ -33,9 +33,9 @@ nav_order: 2
       <li>B.A. in Music Performance, Seoul National University</li>
     </ul>
     <p>
-      <a href="https://scholar.google.com/citations?user=uDnyV4sAAAAJ&hl=ko&oi=sra">Google Scholar</a> &nbsp;|&nbsp;
-      <a href="https://orcid.org/0000-0002-5064-5419">ORCID</a> &nbsp;|&nbsp;
-      <a href="https://www.researchgate.net/profile/Eunju-Jeong-2">ResearchGate</a> &nbsp;|&nbsp;
+      <a href="https://scholar.google.com/citations?user=uDnyV4sAAAAJ&hl=ko&oi=sra">Google Scholar</a> |
+      <a href="https://orcid.org/0000-0002-5064-5419">ORCID</a> |
+      <a href="https://www.researchgate.net/profile/Eunju-Jeong-2">ResearchGate</a> |
       <a href="https://www.linkedin.com/in/eunju-jeong-b8b46517">LinkedIn</a>
     </p>
   </div>
@@ -43,6 +43,6 @@ nav_order: 2
 
 ---
 
-## Graduate Students
+<h2 id="students">Graduate Students</h2>
 
 <p><em>Coming soon...</em></p>
