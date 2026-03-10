@@ -3,22 +3,15 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "About",
+    id: "nav-home",
+    title: "Home",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
-        },{id: "nav-people",
+  },{id: "nav-people",
           title: "People",
-          description: "Members of E-MIND Lab",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
@@ -37,49 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Course materials, schedules, and resources for classes taught.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -484,21 +435,46 @@ ninja.data = [{
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
+            },},{id: "projects-multisensory-sleep-solution-in-vehicle",
+          title: 'Multisensory Sleep Solution in Vehicle',
+          description: "멀티센서리 기술을 활용한 차량 환경에서의 숙면 테라피 솔루션 개발",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_sleep_vehicle/";
             },},{id: "projects-project-4",
           title: 'project 4',
           description: "another without an image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
+            },},{id: "projects-immersive-music-based-neurocognitive-training-for-mci",
+          title: 'Immersive Music-based Neurocognitive Training for MCI',
+          description: "경도인지장애를 위한 가상현실 기반 음악-신경 인지재활 콘텐츠 개발 및 임상효과 검증",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_vr_mci/";
             },},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
+            },},{id: "projects-soundscape-contents-for-everywhere-everyone-and-every-moment",
+          title: 'Soundscape Contents for Everywhere, Everyone and Every Moment',
+          description: "사용자 환경, 개인 성향별 음원 구축을 위한 사운드 스케이프 음악 컨텐츠 개발",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_soundscape/";
             },},{id: "projects-project-6",
           title: 'project 6',
           description: "a project with no image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
+            },},{id: "projects-vibroacoustic-rhythm-for-interoceptive-and-exteroceptive-integration-in-asd",
+          title: 'Vibroacoustic Rhythm for Interoceptive and Exteroceptive Integration in ASD',
+          description: "자폐 범주성 장애의 내수용/외수용 감각 신경 매커니즘 규명 및 통합 촉진을 위한 BCI 기반 진동음향 리듬 콘텐츠 개발",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_vibroacoustic_asd/";
+            },},{id: "projects-decoding-inner-music-using-electrocorticography",
+          title: 'Decoding Inner Music Using Electrocorticography',
+          description: "뇌신호 해독을 통한 BCI-Musicing시스템 개발",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_bci_musicing/";
             },},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
